@@ -1,7 +1,7 @@
 # app.py
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 
-PORT = 69420
+PORT = 8000
 
 class MyHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
